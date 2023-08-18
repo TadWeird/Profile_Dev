@@ -1,0 +1,81 @@
+body 
+{
+    /* background-image: linear-gradient(45deg, #849ed0, #d7ebe0); */
+    background-image: linear-gradient(45deg, #b5838e, #eea98f);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mainBG
+{
+    display: flex;
+    justify-content: center;
+    padding:  50px 50px 50px 50px;
+}
+
+.greeting 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profilebg 
+{
+    display: flex;
+    justify-content: center;
+    padding:  50px 50px 50px 50px;
+}
+
+.square1 
+{   
+    height: 5000px;
+    width: 2000px;
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    margin-top: 300px;
+}
+
+.square2
+{
+    display: flex;
+    justify-content: center;
+    padding:  5px 5px 5px 5px;
+    
+
+    height: 600px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    margin-top: -5350px;
+
+    /* background-image: url('ME.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.PFPME
+{
+
+    height: 550px;
+    width: 550px;
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    margin-top: 30px;
+
+    background-image: url('ME.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
