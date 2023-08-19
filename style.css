@@ -1,14 +1,34 @@
+*
+{
+    font-family: Goose;
+    color: white;
+    filter: drop-shadow(rgb);
+    text-shadow: 5px 5px 5px #25081e;
+}
+
+@font-face 
+{
+    font-family: Goose;
+    src: url(Cocogoose.ttf);
+}
+
 body 
 {
+    background-image: url(BG-COLOR.jpg);
     /* background-image: linear-gradient(45deg, #849ed0, #d7ebe0); */
-    background-image: linear-gradient(45deg, #b5838e, #eea98f);
+    /* backdrop-filter: blur(100%); */
+    /* backdrop-filter: brightness(40%);  */
+    /* background-image: linear-gradient(45deg, #b5838e, #eea98f); */
     background-repeat: no-repeat;
     background-size: cover;
+    padding: auto;
+    justify-content: center;
 }
 
 
 .mainBG
 {
+    padding: auto;
     display: flex;
     justify-content: center;
     padding:  50px 50px 50px 50px;
@@ -19,8 +39,9 @@ body
     display: flex;
     justify-content: center;
     margin-top: 350px;
-    font-size: 200%;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+    text-shadow: none;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 .profilebg 
@@ -32,7 +53,10 @@ body
 
 .square1 
 {   
-    height: 5000px;
+    margin-right: 1%;
+    text-align: center;
+    padding:  20px 20px 20px 20px;
+    height: 5500px;
     width: 2000px;
     background: rgba(255, 255, 255, 0.20);
     border-radius: 16px;
@@ -46,17 +70,15 @@ body
 {
     display: flex;
     justify-content: center;
-    padding:  5px 5px 5px 5px;
-    
-
+    padding:  1px 1px 1px 1px;
     height: 600px;
     width: 600px;
     background: rgba(255, 255, 255, 0.40);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(11.9px);
+    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(11.9px);
-    margin-top: -5350px;
+    margin-top: -5900px;
 
     /* background-image: url('ME.png');
     background-repeat: no-repeat;
@@ -65,17 +87,139 @@ body
 
 .PFPME
 {
-
-    height: 550px;
-    width: 550px;
+    height: 90%;
+    width: 90%;
     background: rgba(255, 255, 255, 0.40);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(11.9px);
     margin-top: 30px;
-
     background-image: url('ME.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
+.whomain
+{
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.who1
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.507);
+    /* box-shadow: 0 8px 32px 0 #4e4e4e5e; */
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.whymain1
+{
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.why1 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.507);
+    /* box-shadow: 0 8px 32px 0 #4e4e4e5e; */
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.whatmain1
+{
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.what1
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.507);
+    /* box-shadow: 0 8px 32px 0 #4e4e4e5e; */
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.moremain
+{
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.more1
+{
+   height: auto;
+   width: auto;
+   background-color: aqua;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1px;
+   padding: 1.5% 1.5% 1.5% 1.5%;
+   border-radius: 15px;
+   align-items: center;
+   font-size: 40px;
+   overflow: hidden;
+   background: rgba(0, 0, 0, 0.507);
+   backdrop-filter: blur( 11px );
+   -webkit-backdrop-filter: blur( 11px );
+}
+
+.unfinished
+{
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.worker
+{
+    align-items: center;
+    margin-left: 235px;
+    margin-right: auto;
+    
+}
+
+.Gitbutton{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
